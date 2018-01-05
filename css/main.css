@@ -1,0 +1,272 @@
+@font-face {
+    font-family: "Overwatch";
+    src: url("../fonts/bignoodletoo.woff") format('woff');
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Saira Semi Condensed', Arial, Helvetica, sans-serif;
+
+}
+
+h1,h2,h3,h4{
+  font-family: 'Overwatch';
+    /*padding: 20px;*/
+
+}
+h1{
+
+    font-size: 3rem;
+    letter-spacing: 3px;
+    text-shadow: 0 1px 0 #ccc,
+                   0 2px 0 #c9c9c9,
+                   0 3px 0 #bbb,
+                   0 4px 0 #b9b9b9,
+                   0 5px 0 #aaa,
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);
+}
+
+h2{
+
+    font-size: 2.8rem;
+    letter-spacing: 1.5px;
+    text-shadow: 0 1px 0 #ccc,
+                   0 2px 0 #c9c9c9,
+                   0 3px 0 #bbb,
+                   0 4px 0 #b9b9b9,
+                   0 5px 0 #aaa,
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);
+}
+
+#select{
+    text-shadow: none;
+    padding: 20px;
+    font-weight: bold;
+}
+h3{
+    font-size: 2.5rem;
+}
+h4{
+    font-size: 2.2rem;
+}
+p{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    /*padding: 10px;*/
+}
+a{
+  font-size: 1.8rem;
+}
+
+.jumbotron{
+    background: url(../img/overwatch-banner-edited.jpg) no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin: 0;
+    position: relative;
+}
+
+.container-fluid{
+
+    padding: 20px;
+}
+
+#hero-list li{
+    font-family: 'Overwatch';
+  list-style: none;
+  font-size: 2.5rem;
+    max-width: 100%;
+}
+
+#hero-list {
+    margin: auto;
+    padding: 0;
+  text-align: center;
+}
+#hero-list a {
+font-weight: bold;
+
+    margin: 10px 5px;
+  display: block;
+  padding: 10px 20px;
+  font-size: 2.2rem;
+letter-spacing: 2px;
+  color: black;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+text-decoration: none;
+box-shadow: 0 9px #666;
+}
+#hero-list a:active {
+box-shadow: 0 5px #666;
+ transform: translateY(4px);
+}
+#hero-list a:hover {
+  color: white;
+  background-color: black;
+
+}
+
+
+#hero-list ul {
+  font-family: 'Overwatch';
+ padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  /*change to either none or block to toggle subnav visibility*/
+}
+
+.progress{
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+    box-shadow:0px 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+#icon{
+    height: 209px;
+}
+
+#skinframe{
+    max-width: 600px;
+    max-height: 600px;
+display: block;
+margin: 30px auto;
+box-shadow:0 8px 16px 0 rgba(0,0,0,0.5),0 6px 20px 0 rgba(0,0,0,0.2);
+}
+
+#skin_title{
+    font-size: 5rem;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 0 #ccc,
+                   0 2px 0 #c9c9c9,
+                   0 3px 0 #bbb,
+                   0 4px 0 #b9b9b9,
+                   0 5px 0 #aaa,
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);
+}
+
+#hero, #real_name{
+    font-weight: bold;
+
+    letter-spacing: 2px;
+    text-shadow: 0 1px 0 #ccc,
+                   0 2px 0 #c9c9c9,
+                   0 3px 0 #bbb,
+                   0 4px 0 #b9b9b9,
+                   0 5px 0 #aaa,
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);
+}
+#role{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#description{
+    background:rgba(100, 100, 100, 0.3);
+letter-spacing: 1px;
+}
+.ability_name{
+    text-shadow: 0 1px 0 #ccc,
+                   0 2px 0 #c9c9c9,
+
+
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);
+}
+#abilities{
+    background: rgba(100, 100, 100, 0.3);
+    letter-spacing: 1px;
+}
+
+#skin-list a{
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 9px 2px #ccc;
+}
+
+#skin-list a:active {
+box-shadow: 0 5px 2px #ccc;
+ transform: translateY(4px);
+}
+.fadeIn {
+    animation-duration: 3s;
+}
+
+#mybutton{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 0;
+}
+#nav{
+
+    padding: 0 15px;
+}
+#app, #about {
+    border: none;
+font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    margin: 0 100px;
+    border-radius: 0;
+    padding: 20px 30px;
+    text-shadow: 0 1px 0 #ccc,
+                   0 2px 0 #c9c9c9,
+                   0 3px 0 #bbb,
+
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);
+}
+.selected{
+    background: black;
+}
+
+#about-electron p{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1199px){
+    #hero-list a{
+        font-weight: normal;
+    }
+}

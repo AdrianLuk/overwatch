@@ -1,0 +1,1579 @@
+{
+    "data": [
+
+        {
+            "name": "Ana",
+            "icon": "img/ana/ana.thumb.png",
+            "strong": ["lucio", "mercy", "zenyatta", "roadhog"],
+            "weak": ["genji", "reaper", "tracer"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/ana/classic.png"
+                },
+                {
+                    "name": "captain amari",
+                    "image": "img/ana/captain_amari.png"
+                },
+                {
+                    "name": "citrine",
+                    "image": "img/ana/citrine.png"
+                },
+                {
+                    "name": "garnet",
+                    "image": "img/ana/garnet.png"
+                },
+                {
+                    "name": "ghoul",
+                    "image": "img/ana/ghoul.png"
+                },
+                {
+                    "name": "horus",
+                    "image": "img/ana/horus.png"
+                },
+                {
+                    "name": "merciful",
+                    "image": "img/ana/merciful.png"
+                },
+                {
+                    "name": "peridot",
+                    "image": "img/ana/peridot.png"
+                },
+                {
+                    "name": "shrike",
+                    "image": "img/ana/shrike.png"
+                },
+                {
+                    "name": "tal",
+                    "image": "img/ana/tal.png"
+                },
+                {
+                    "name": "turquoise",
+                    "image": "img/ana/turquoise.png"
+                },
+                {
+                    "name": "wadjet",
+                    "image": "img/ana/wadjet.png"
+                },
+                {
+                    "name": "wasteland",
+                    "image": "img/ana/wasteland.png"
+                }
+            ]
+        },
+        {
+            "name": "Bastion",
+            "icon": "img/bastion/bastion.thumb.png",
+            "strong": ["torbjörn", "reinhardt", "winston"],
+            "weak": ["genji", "tracer", "widowmaker", "pharah"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/bastion/classic.png"
+                },
+                {
+                    "name": "antique",
+                    "image": "img/bastion/antique.png"
+                },
+                {
+                    "name": "BlizzCon 2016",
+                    "image": "img/bastion/blizzcon_2016.png"
+                },
+                {
+                    "name": "dawn",
+                    "image": "img/bastion/dawn.png"
+                },
+                {
+                    "name": "Defense Matrix",
+                    "image": "img/bastion/defense_matrix.png"
+                },
+                {
+                    "name": "dune buggy",
+                    "image": "img/bastion/dune_buggy.png"
+                },
+                {
+                    "name": "gearbot",
+                    "image": "img/bastion/gearbot.png"
+                },
+                {
+                    "name": "meadow",
+                    "image": "img/bastion/meadow.png"
+                },
+                {
+                    "name": "null sector",
+                    "image": "img/bastion/null_sector.png"
+                },
+                {
+                    "name": "omnic crisis",
+                    "image": "img/bastion/omnic_crisis.png"
+                },
+                {
+                    "name": "overgrown",
+                    "image": "img/bastion/overgrown.png"
+                },
+                {
+                    "name": "rooster",
+                    "image": "img/bastion/rooster.png"
+                },
+                {
+                    "name": "sky",
+                    "image": "img/bastion/sky.png"
+                },
+                {
+                    "name": "soot",
+                    "image": "img/bastion/soot.png"
+                },
+                {
+                    "name": "steambot",
+                    "image": "img/bastion/steambot.png"
+                },
+                {
+                    "name": "tombstone",
+                    "image": "img/bastion/tombstone.png"
+                },
+                {
+                    "name": "woodbot",
+                    "image": "img/bastion/woodbot.png"
+                }
+            ]
+        },
+        {
+            "name": "D.Va",
+            "icon": "img/D.Va/D.Va.thumb.png",
+            "strong": ["pharah", "reinhardt", "widowmaker", "orisa"],
+            "weak": ["mei", "symmetra", "zenyatta", "zarya", "sombra"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/D.Va/classic.png"
+                },
+                {
+                    "name": "blueberry",
+                    "image": "img/D.Va/blueberry.png"
+                },
+                {
+                    "name": "B.Va",
+                    "image": "img/D.Va/bva.png"
+                },
+                {
+                    "name": "carbon fiber",
+                    "image": "img/D.Va/carbon_fiber.png"
+                },
+                {
+                    "name": "cruiser",
+                    "image": "img/D.Va/cruiser.png"
+                },
+                {
+                    "name": "junebug",
+                    "image": "img/D.Va/junebug.png"
+                },
+                {
+                    "name": "junker",
+                    "image": "img/D.Va/junker.png"
+                },
+                {
+                    "name": "lemon-lime",
+                    "image": "img/D.Va/lemon-lime.png"
+                },
+                {
+                    "name": "palanquin",
+                    "image": "img/D.Va/palanquin.png"
+                },
+                {
+                    "name": "Police Officer",
+                    "image": "img/D.Va/police-officer.png"
+                },
+                {
+                    "name": "scavenger",
+                    "image": "img/D.Va/scavenger.png"
+                },
+                {
+                    "name": "taegeukgi",
+                    "image": "img/D.Va/taegeukgi.png"
+                },
+                {
+                    "name": "tangerine",
+                    "image": "img/D.Va/tangerine.png"
+                },
+                {
+                    "name": "watermelon",
+                    "image": "img/D.Va/watermelon.png"
+                },
+                {
+                    "name": "white rabbit",
+                    "image": "img/D.Va/white_rabbit.png"
+                }
+            ]
+        },
+        {
+            "name": "Genji",
+            "icon": "img/genji/Genji.thumb.png",
+            "strong": ["bastion", "mercy", "widowmaker"],
+            "weak": ["winston", "mei", "zarya"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/genji/classic.png"
+                },
+                {
+                    "name": "azurite",
+                    "image": "img/genji/azurite.png"
+                },
+                {
+                    "name": "bedouin",
+                    "image": "img/genji/bedouin.png"
+                },
+                {
+                    "name": "blackwatch",
+                    "image": "img/genji/blackwatch.png"
+                },
+                {
+                    "name": "carbon fiber",
+                    "image": "img/genji/carbon-fiber.png"
+                },
+                {
+                    "name": "chrome",
+                    "image": "img/genji/chrome.png"
+                },
+                {
+                    "name": "cinnabar",
+                    "image": "img/genji/cinnabar.png"
+                },
+                {
+                    "name": "malachite",
+                    "image": "img/genji/malachite.png"
+                },
+                {
+                    "name": "nihon",
+                    "image": "img/genji/nihon.png"
+                },
+                {
+                    "name": "nomad",
+                    "image": "img/genji/nomad.png"
+                },
+                {
+                    "name": "ochre",
+                    "image": "img/genji/ochre.png"
+                },
+                {
+                    "name": "oni",
+                    "image": "img/genji/oni.png"
+                },
+                {
+                    "name": "sentai",
+                    "image": "img/genji/sentai.png"
+                },
+                {
+                    "name": "sparrow",
+                    "image": "img/genji/sparrow.png"
+                },
+                {
+                    "name": "young genji",
+                    "image": "img/genji/young-genji.png"
+                }
+            ]
+        },
+        {
+            "name": "hanzo",
+            "icon": "img/hanzo/hanzo.thumb.png",
+            "strong": ["bastion", "torbjörn", "widowmaker"],
+            "weak": ["D.Va", "tracer", "mei"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/hanzo/classic.png"
+                },
+                {
+                    "name": "azuki",
+                    "image": "img/hanzo/azuki.png"
+                },
+                {
+                    "name": "cloud",
+                    "image": "img/hanzo/cloud.png"
+                },
+                {
+                    "name": "cyberninja",
+                    "image": "img/hanzo/cyberninja.png"
+                },
+                {
+                    "name": "demon",
+                    "image": "img/hanzo/demon.png"
+                },
+                {
+                    "name": "dragon",
+                    "image": "img/hanzo/dragon.png"
+                },
+                {
+                    "name": "kinoko",
+                    "image": "img/hanzo/kinoko.png"
+                },
+                {
+                    "name": "lone wolf",
+                    "image": "img/hanzo/lone-wolf.png"
+                },
+                {
+                    "name": "midori",
+                    "image": "img/hanzo/midori.png"
+                },
+                {
+                    "name": "okami",
+                    "image": "img/hanzo/okami.png"
+                },
+                {
+                    "name": "sora",
+                    "image": "img/hanzo/sora.png"
+                },
+                {
+                    "name": "young hanzo",
+                    "image": "img/hanzo/young-hanzo.png"
+                },
+                {
+                    "name": "young master",
+                    "image": "img/hanzo/young-master.png"
+                }
+            ]
+        },
+        {
+            "name": "junkrat",
+            "icon": "img/junkrat/junkrat.thumb.png",
+            "strong": ["bastion", "torbjörn", "mei"],
+            "weak": ["mccree", "pharah", "widowmaker"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/junkrat/classic.png"
+                },
+                {
+                    "name": "bleached",
+                    "image": "img/junkrat/bleached.png"
+                },
+                {
+                    "name": "cricket",
+                    "image": "img/junkrat/cricket.png"
+                },
+                {
+                    "name": "dr. junkenstein",
+                    "image": "img/junkrat/dr-junkenstein.png"
+                },
+                {
+                    "name": "drowned",
+                    "image": "img/junkrat/drowned.png"
+                },
+                {
+                    "name": "firework",
+                    "image": "img/junkrat/firework.png"
+                },
+                {
+                    "name": "fool",
+                    "image": "img/junkrat/fool.png"
+                },
+                {
+                    "name": "hayseed",
+                    "image": "img/junkrat/hayseed.png"
+                },
+                {
+                    "name": "irradiated",
+                    "image": "img/junkrat/irradiated.png"
+                },
+                {
+                    "name": "jailbird",
+                    "image": "img/junkrat/jailbird.png"
+                },
+                {
+                    "name": "jester",
+                    "image": "img/junkrat/jester.png"
+                },
+                {
+                    "name": "rusted",
+                    "image": "img/junkrat/rusted.png"
+                },
+                {
+                    "name": "scarecrow",
+                    "image": "img/junkrat/scarecrow.png"
+                },
+                {
+                    "name": "toasted",
+                    "image": "img/junkrat/toasted.png"
+                }
+            ]
+        },
+        {
+            "name": "lucio",
+            "icon": "img/lucio/lucio.thumb.png",
+            "strong": ["D.Va", "reaper", "winston"],
+            "weak": ["mei", "mccree", "pharah"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/lucio/classic.png"
+                },
+                {
+                    "name": "andes",
+                    "image": "img/lucio/andes.png"
+                },
+                {
+                    "name": "auditiva",
+                    "image": "img/lucio/auditiva.png"
+                },
+                {
+                    "name": "azul",
+                    "image": "img/lucio/azul.png"
+                },
+                {
+                    "name": "breakaway",
+                    "image": "img/lucio/breakaway.png"
+                },
+                {
+                    "name": "hippity hop",
+                    "image": "img/lucio/hippity-hop.png"
+                },
+                {
+                    "name": "jazzy",
+                    "image": "img/lucio/jazzy.png"
+                },
+                {
+                    "name": "laranja",
+                    "image": "img/lucio/laranja.png"
+                },
+                {
+                    "name": "ribbit",
+                    "image": "img/lucio/ribbit.png"
+                },
+                {
+                    "name": "roxo",
+                    "image": "img/lucio/roxo.png"
+                },
+                {
+                    "name": "seleção",
+                    "image": "img/lucio/selecao.png"
+                },
+                {
+                    "name": "slapshot",
+                    "image": "img/lucio/slapshot.png"
+                },
+                {
+                    "name": "striker",
+                    "image": "img/lucio/striker.png"
+                },
+                {
+                    "name": "synaesthesia",
+                    "image": "img/lucio/synaesthesia.png"
+                },
+                {
+                    "name": "vermelho",
+                    "image": "img/lucio/vermelho.png"
+                }
+            ]
+        },
+        {
+            "name": "mccree",
+            "icon": "img/mccree/mccree.thumb.png",
+            "strong": ["reaper", "tracer", "winston"],
+            "weak": ["genji", "widowmaker", "hanzo"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/mccree/classic.png"
+                },
+                {
+                    "name": "american",
+                    "image": "img/mccree/american.png"
+                },
+                {
+                    "name": "blackwatch",
+                    "image": "img/mccree/blackwatch.png"
+                },
+                {
+                    "name": "ebony",
+                    "image": "img/mccree/ebony.png"
+                },
+                {
+                    "name": "gambler",
+                    "image": "img/mccree/gambler.png"
+                },
+                {
+                    "name": "lake",
+                    "image": "img/mccree/lake.png"
+                },
+                {
+                    "name": "lifeguard",
+                    "image": "img/mccree/lifeguard.png"
+                },
+                {
+                    "name": "mystery man",
+                    "image": "img/mccree/mystery-man.png"
+                },
+                {
+                    "name": "on the range",
+                    "image": "img/mccree/on-the-range.png"
+                },
+                {
+                    "name": "riverboat",
+                    "image": "img/mccree/riverboat.png"
+                },
+                {
+                    "name": "sage",
+                    "image": "img/mccree/sage.png"
+                },
+                {
+                    "name": "scrooge",
+                    "image": "img/mccree/scrooge.png"
+                },
+                {
+                    "name": "vigilante",
+                    "image": "img/mccree/vigilante.png"
+                },
+                {
+                    "name": "wheat",
+                    "image": "img/mccree/wheat.png"
+                },
+                {
+                    "name": "white hat",
+                    "image": "img/mccree/white-hat.png"
+                }
+            ]
+        },
+        {
+            "name": "mei",
+            "icon": "img/mei/mei.thumb.png",
+            "strong": ["genji", "winston", "tracer"],
+            "weak": ["junkrat", "pharah", "widowmaker"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/mei/classic.png"
+                },
+                {
+                    "name": "abominable",
+                    "image": "img/mei/abominable.png"
+                },
+                {
+                    "name": "beekeeper",
+                    "image": "img/mei/beekeeper.png"
+                },
+                {
+                    "name": "Chang'E",
+                    "image": "img/mei/chang'e.png"
+                },
+                {
+                    "name": "chrysanthemum",
+                    "image": "img/mei/chrysanthemum.png"
+                },
+                {
+                    "name": "earthen",
+                    "image": "img/mei/earthen.png"
+                },
+                {
+                    "name": "firefighter",
+                    "image": "img/mei/firefighter.png"
+                },
+                {
+                    "name": "heliotrope",
+                    "image": "img/mei/heliotrope.png"
+                },
+                {
+                    "name": "jade",
+                    "image": "img/mei/jade.png"
+                },
+                {
+                    "name": "luna",
+                    "image": "img/mei/luna.png"
+                },
+                {
+                    "name": "meirry",
+                    "image": "img/mei/mei-rry.png"
+                },
+                {
+                    "name": "persimmon",
+                    "image": "img/mei/persimmon.png"
+                },
+                {
+                    "name": "rescue mei",
+                    "image": "img/mei/rescue-mei.png"
+                },
+                {
+                    "name": "snow plum",
+                    "image": "img/mei/snow-plum.png"
+                },
+                {
+                    "name": "yeti hunter",
+                    "image": "img/mei/yeti-hunter.png"
+                }
+            ]
+        },
+        {
+            "name": "mercy",
+            "icon": "img/mercy/mercy.thumb.png",
+            "strong": [],
+            "weak": ["mccree", "tracer", "widowmaker"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/mercy/classic.png"
+                },
+                {
+                    "name": "amber",
+                    "image": "img/mercy/amber.png"
+                },
+                {
+                    "name": "celestial",
+                    "image": "img/mercy/celestial.png"
+                },
+                {
+                    "name": "cobalt",
+                    "image": "img/mercy/cobalt.png"
+                },
+                {
+                    "name": "combat medic ziegler",
+                    "image": "img/mercy/combat-medic-ziegler.png"
+                },
+                {
+                    "name": "devil",
+                    "image": "img/mercy/devil.png"
+                },
+                {
+                    "name": "eidgenossin",
+                    "image": "img/mercy/eidgenossin.png"
+                },
+                {
+                    "name": "fortune",
+                    "image": "img/mercy/fortune.png"
+                },
+                {
+                    "name": "imp",
+                    "image": "img/mercy/imp.png"
+                },
+                {
+                    "name": "mist",
+                    "image": "img/mercy/mist.png"
+                },
+                {
+                    "name": "orchid",
+                    "image": "img/mercy/orchid.png"
+                },
+                {
+                    "name": "sigrún",
+                    "image": "img/mercy/sigrún.png"
+                },
+                {
+                    "name": "valkyrie",
+                    "image": "img/mercy/valkyrie.png"
+                },
+                {
+                    "name": "verdant",
+                    "image": "img/mercy/verdant.png"
+                },
+                {
+                    "name": "winged victory",
+                    "image": "img/mercy/winged-victory.png"
+                },
+                {
+                    "name": "witch",
+                    "image": "img/mercy/witch.png"
+                }
+            ]
+        },
+        {
+            "name": "pharah",
+            "icon": "img/pharah/pharah.thumb.png",
+            "strong": ["bastion", "junkrat", "mei"],
+            "weak": ["widowmaker", "soldier_76", "mccree", "ana"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/pharah/classic.png"
+                },
+                {
+                    "name": "amethyst",
+                    "image": "img/pharah/amethyst.png"
+                },
+                {
+                    "name": "anubis",
+                    "image": "img/pharah/anubis.png"
+                },
+                {
+                    "name": "bedouin",
+                    "image": "img/pharah/bedouin.png"
+                },
+                {
+                    "name": "copper",
+                    "image": "img/pharah/copper.png"
+                },
+                {
+                    "name": "emerald",
+                    "image": "img/pharah/emerald.png"
+                },
+                {
+                    "name": "frostbite",
+                    "image": "img/pharah/frostbite.png"
+                },
+                {
+                    "name": "jackal",
+                    "image": "img/pharah/jackal.png"
+                },
+                {
+                    "name": "mechaqueen",
+                    "image": "img/pharah/mechaqueen.png"
+                },
+                {
+                    "name": "possessed",
+                    "image": "img/pharah/possessed.png"
+                },
+                {
+                    "name": "raindancer",
+                    "image": "img/pharah/raindancer.png"
+                },
+                {
+                    "name": "raptorion",
+                    "image": "img/pharah/raptorion.png"
+                },
+                {
+                    "name": "security chief",
+                    "image": "img/pharah/security-chief.png"
+                },
+                {
+                    "name": "thunderbird",
+                    "image": "img/pharah/thunderbird.png"
+                },
+                {
+                    "name": "titanium",
+                    "image": "img/pharah/titanium.png"
+                }
+            ]
+        },
+        {
+            "name": "reaper",
+            "icon": "img/reaper/reaper.thumb.png",
+            "strong": ["bastion", "mei", "winston"],
+            "weak": ["junkrat", "mccree", "pharah"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/reaper/classic.png"
+                },
+                {
+                    "name": "biker",
+                    "image": "img/reaper/biker.png"
+                },
+                {
+                    "name": "blackwatch reyes",
+                    "image": "img/reaper/blackwatch-reyes.png"
+                },
+                {
+                    "name": "blood",
+                    "image": "img/reaper/blood.png"
+                },
+                {
+                    "name": "desert",
+                    "image": "img/reaper/desert.png"
+                },
+                {
+                    "name": "el blanco",
+                    "image": "img/reaper/el-blanco.png"
+                },
+                {
+                    "name": "mariachi",
+                    "image": "img/reaper/mariachi.png"
+                },
+                {
+                    "name": "midnight",
+                    "image": "img/reaper/midnight.png"
+                },
+                {
+                    "name": "moss",
+                    "image": "img/reaper/moss.png"
+                },
+                {
+                    "name": "nevermore",
+                    "image": "img/reaper/nevermore.png"
+                },
+                {
+                    "name": "plague doctor",
+                    "image": "img/reaper/plague-doctor.png"
+                },
+                {
+                    "name": "pumpkin",
+                    "image": "img/reaper/pumpkin.png"
+                },
+                {
+                    "name": "royal",
+                    "image": "img/reaper/royal.png"
+                },
+                {
+                    "name": "shiver",
+                    "image": "img/reaper/shiver.png"
+                },
+                {
+                    "name": "wight",
+                    "image": "img/reaper/wight.png"
+                }
+            ]
+        },
+        {
+            "name": "reinhardt",
+            "icon": "img/reinhardt/reinhardt.thumb.png",
+            "strong": ["soldier_76", "torbjörn", "widowmaker"],
+            "weak": ["reaper", "roadhog", "sombra", "symmetra"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/reinhardt/classic.png"
+                },
+                {
+                    "name": "balderich",
+                    "image": "img/reinhardt/balderich.png"
+                },
+                {
+                    "name": "blackhardt",
+                    "image": "img/reinhardt/blackhardt.png"
+                },
+                {
+                    "name": "bloodhardt",
+                    "image": "img/reinhardt/bloodhardt.png"
+                },
+                {
+                    "name": "brass",
+                    "image": "img/reinhardt/brass.png"
+                },
+                {
+                    "name": "bundeswehr",
+                    "image": "img/reinhardt/bundeswehr.png"
+                },
+                {
+                    "name": "cobalt",
+                    "image": "img/reinhardt/cobalt.png"
+                },
+                {
+                    "name": "coldhardt",
+                    "image": "img/reinhardt/coldhardt.png"
+                },
+                {
+                    "name": "copper",
+                    "image": "img/reinhardt/copper.png"
+                },
+                {
+                    "name": "greifhardt",
+                    "image": "img/reinhardt/greifhardt.png"
+                },
+                {
+                    "name": "lieutenant wilhelm",
+                    "image": "img/reinhardt/lieutenant-wilhelm.png"
+                },
+                {
+                    "name": "lionhardt",
+                    "image": "img/reinhardt/lionhardt.png"
+                },
+                {
+                    "name": "paragon",
+                    "image": "img/reinhardt/paragon.png"
+                },
+                {
+                    "name": "stonehardt",
+                    "image": "img/reinhardt/stonehardt.png"
+                },
+                {
+                    "name": "viridian",
+                    "image": "img/reinhardt/viridian.png"
+                },
+                {
+                    "name": "wujing",
+                    "image": "img/reinhardt/wujing.png"
+                }
+            ]
+        },
+        {
+            "name": "roadhog",
+            "icon": "img/roadhog/roadhog.thumb.png",
+            "strong": ["mercy", "reinhardt", "tracer", "soldier_76"],
+            "weak": ["ana", "D.Va", "genji", "reaper"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/roadhog/classic.png"
+                },
+                {
+                    "name": "islander",
+                    "image": "img/roadhog/islander.png"
+                },
+                {
+                    "name": "junkenstein's monster",
+                    "image": "img/roadhog/junkensteins-monster.png"
+                },
+                {
+                    "name": "kiwi",
+                    "image": "img/roadhog/kiwi.png"
+                },
+                {
+                    "name": "mako",
+                    "image": "img/roadhog/mako.png"
+                },
+                {
+                    "name": "mud",
+                    "image": "img/roadhog/mud.png"
+                },
+                {
+                    "name": "pigpen",
+                    "image": "img/roadhog/pigpen.png"
+                },
+                {
+                    "name": "rudolph",
+                    "image": "img/roadhog/rudolph.png"
+                },
+                {
+                    "name": "sand",
+                    "image": "img/roadhog/sand.png"
+                },
+                {
+                    "name": "sharkbait",
+                    "image": "img/roadhog/sharkbait.png"
+                },
+                {
+                    "name": "stitched",
+                    "image": "img/roadhog/stitched.png"
+                },
+                {
+                    "name": "thistle",
+                    "image": "img/roadhog/thistle.png"
+                },
+                {
+                    "name": "toa",
+                    "image": "img/roadhog/toa.png"
+                }
+            ]
+        },
+        {
+            "name": "soldier: 76",
+            "icon": "img/soldier_76/soldier_76.thumb.png",
+            "strong": ["torbjörn", "pharah", "zarya"],
+            "weak": ["D.Va", "symmetra", "mei", "roadhog"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/soldier_76/classic.png"
+                },
+                {
+                    "name": "bone",
+                    "image": "img/soldier_76/bone.png"
+                },
+                {
+                    "name": "commando",
+                    "image": "img/soldier_76/commando.png"
+                },
+                {
+                    "name": "cyborg",
+                    "image": "img/soldier_76/cyborg.png"
+                },
+                {
+                    "name": "daredevil",
+                    "image": "img/soldier_76/daredevil.png"
+                },
+                {
+                    "name": "golden",
+                    "image": "img/soldier_76/golden.png"
+                },
+                {
+                    "name": "grillmaster",
+                    "image": "img/soldier_76/grillmaster.png"
+                },
+                {
+                    "name": "immortal",
+                    "image": "img/soldier_76/immortal.png"
+                },
+                {
+                    "name": "jet",
+                    "image": "img/soldier_76/jet.png"
+                },
+                {
+                    "name": "night ops",
+                    "image": "img/soldier_76/night-ops.png"
+                },
+                {
+                    "name": "olive",
+                    "image": "img/soldier_76/olive.png"
+                },
+                {
+                    "name": "russet",
+                    "image": "img/soldier_76/russet.png"
+                },
+                {
+                    "name": "smoke",
+                    "image": "img/soldier_76/smoke.png"
+                },
+                {
+                    "name": "strike commander morrison",
+                    "image": "img/soldier_76/strike-commander-morrison.png"
+                },
+                {
+                    "name": "stunt rider",
+                    "image": "img/soldier_76/stunt-rider.png"
+                }
+            ]
+        },
+        {
+            "name": "symmetra",
+            "icon": "img/symmetra/symmetra.thumb.png",
+            "strong": ["D.Va", "genji", "reinhardt"],
+            "weak": ["junkrat", "pharah", "widowmaker"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/symmetra/classic.png"
+                },
+                {
+                    "name": "architech",
+                    "image": "img/symmetra/architech.png"
+                },
+                {
+                    "name": "cardamom",
+                    "image": "img/symmetra/cardamom.png"
+                },
+                {
+                    "name": "devi",
+                    "image": "img/symmetra/devi.png"
+                },
+                {
+                    "name": "goddess",
+                    "image": "img/symmetra/goddess.png"
+                },
+                {
+                    "name": "hyacinth",
+                    "image": "img/symmetra/hyacinth.png"
+                },
+                {
+                    "name": "oasis",
+                    "image": "img/symmetra/oasis.png"
+                },
+                {
+                    "name": "qipao",
+                    "image": "img/symmetra/qipao.png"
+                },
+                {
+                    "name": "regal",
+                    "image": "img/symmetra/regal.png"
+                },
+                {
+                    "name": "saffron",
+                    "image": "img/symmetra/saffron.png"
+                },
+                {
+                    "name": "technomancer",
+                    "image": "img/symmetra/technomancer.png"
+                },
+                {
+                    "name": "utopaea",
+                    "image": "img/symmetra/utopaea.png"
+                },
+                {
+                    "name": "vampire",
+                    "image": "img/symmetra/vampire.png"
+                },
+                {
+                    "name": "vishkar",
+                    "image": "img/symmetra/vishkar.png"
+                }
+            ]
+        },
+        {
+            "name": "torbjörn",
+            "icon": "img/torbjörn/torbjörn.thumb.png",
+            "strong": ["genji", "lucio", "tracer"],
+            "weak": ["junkrat", "pharah", "widowmaker", "hanzo"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/torbjörn/classic.png"
+                },
+                {
+                    "name": "barbarossa",
+                    "image": "img/torbjörn/barbarossa.png"
+                },
+                {
+                    "name": "blå",
+                    "image": "img/torbjörn/blå.png"
+                },
+                {
+                    "name": "blackbeard",
+                    "image": "img/torbjörn/blackbeard.png"
+                },
+                {
+                    "name": "cathode",
+                    "image": "img/torbjörn/cathode.png"
+                },
+                {
+                    "name": "chief engineer lindholm",
+                    "image": "img/torbjörn/chief-engineer-lindholm.png"
+                },
+                {
+                    "name": "chopper",
+                    "image": "img/torbjörn/chopper.png"
+                },
+                {
+                    "name": "citron",
+                    "image": "img/torbjörn/citron.png"
+                },
+                {
+                    "name": "deadlock",
+                    "image": "img/torbjörn/deadlock.png"
+                },
+                {
+                    "name": "grön",
+                    "image": "img/torbjörn/grön.png"
+                },
+                {
+                    "name": "ironclad",
+                    "image": "img/torbjörn/ironclad.png"
+                },
+                {
+                    "name": "plommon",
+                    "image": "img/torbjörn/plommon.png"
+                },
+                {
+                    "name": "santaclad",
+                    "image": "img/torbjörn/santaclad.png"
+                },
+                {
+                    "name": "tre kronor",
+                    "image": "img/torbjörn/tre-kronor.png"
+                },
+                {
+                    "name": "woodclad",
+                    "image": "img/torbjörn/woodclad.png"
+                }
+            ]
+        },
+        {
+            "name": "tracer",
+            "icon": "img/tracer/tracer.thumb.png",
+            "strong": ["bastion", "mercy", "widowmaker", "orisa"],
+            "weak": ["mccree", "mei", "pharah", "soldier_76"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/tracer/classic.png"
+                },
+                {
+                    "name": "cadet oxton",
+                    "image": "img/tracer/cadet-oxton.png"
+                },
+                {
+                    "name": "electric purple",
+                    "image": "img/tracer/electric-purple.png"
+                },
+                {
+                    "name": "graffiti",
+                    "image": "img/tracer/graffiti.png"
+                },
+                {
+                    "name": "hot pink",
+                    "image": "img/tracer/hot-pink.png"
+                },
+                {
+                    "name": "jingle",
+                    "image": "img/tracer/jingle.png"
+                },
+                {
+                    "name": "mach t",
+                    "image": "img/tracer/mach-t.png"
+                },
+                {
+                    "name": "neon green",
+                    "image": "img/tracer/neon-green.png"
+                },
+                {
+                    "name": "posh",
+                    "image": "img/tracer/posh.png"
+                },
+                {
+                    "name": "punk",
+                    "image": "img/tracer/punk.png"
+                },
+                {
+                    "name": "rose",
+                    "image": "img/tracer/rose.png"
+                },
+                {
+                    "name": "royal blue",
+                    "image": "img/tracer/royal-blue.png"
+                },
+                {
+                    "name": "slipstream",
+                    "image": "img/tracer/slipstream.png"
+                },
+                {
+                    "name": "sporty",
+                    "image": "img/tracer/sporty.png"
+                },
+                {
+                    "name": "sprinter",
+                    "image": "img/tracer/sprinter.png"
+                },
+                {
+                    "name": "t.racer",
+                    "image": "img/tracer/t.racer.png"
+                },
+                {
+                    "name": "track and field",
+                    "image": "img/tracer/track-and-field.png"
+                },
+                {
+                    "name": "ultraviolet",
+                    "image": "img/tracer/ultraviolet.png"
+                }
+            ]
+        },
+        {
+            "name": "widowmaker",
+            "icon": "img/widowmaker/widowmaker.thumb.png",
+            "strong": ["bastion", "torbjörn", "pharah", "mercy"],
+            "weak": ["D.Va", "genji", "winston", "tracer"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/widowmaker/classic.png"
+                },
+                {
+                    "name": "ciel",
+                    "image": "img/widowmaker/ciel.png"
+                },
+                {
+                    "name": "comtesse",
+                    "image": "img/widowmaker/comtesse.png"
+                },
+                {
+                    "name": "côte d'azur",
+                    "image": "img/widowmaker/côte-d'azur.png"
+                },
+                {
+                    "name": "huntress",
+                    "image": "img/widowmaker/huntress.png"
+                },
+                {
+                    "name": "noire",
+                    "image": "img/widowmaker/noire.png"
+                },
+                {
+                    "name": "nuit",
+                    "image": "img/widowmaker/nuit.png"
+                },
+                {
+                    "name": "odette",
+                    "image": "img/widowmaker/odette.png"
+                },
+                {
+                    "name": "odile",
+                    "image": "img/widowmaker/odile.png"
+                },
+                {
+                    "name": "patina",
+                    "image": "img/widowmaker/patina.png"
+                },
+                {
+                    "name": "rose",
+                    "image": "img/widowmaker/rose.png"
+                },
+                {
+                    "name": "talon",
+                    "image": "img/widowmaker/talon.png"
+                },
+                {
+                    "name": "tricolore",
+                    "image": "img/widowmaker/tricolore.png"
+                },
+                {
+                    "name": "vert",
+                    "image": "img/widowmaker/vert.png"
+                },
+                {
+                    "name": "winter",
+                    "image": "img/widowmaker/winter.png"
+                }
+            ]
+        },
+        {
+            "name": "winston",
+            "icon": "img/winston/winston.thumb.png",
+            "strong": ["genji", "hanzo", "widowmaker"],
+            "weak": ["mccree", "mei", "reaper", "roadhog"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/winston/classic.png"
+                },
+                {
+                    "name": "atmosphere",
+                    "image": "img/winston/atmosphere.png"
+                },
+                {
+                    "name": "banana",
+                    "image": "img/winston/banana.png"
+                },
+                {
+                    "name": "desert",
+                    "image": "img/winston/desert.png"
+                },
+                {
+                    "name": "explorer",
+                    "image": "img/winston/explorer.png"
+                },
+                {
+                    "name": "forest",
+                    "image": "img/winston/forest.png"
+                },
+                {
+                    "name": "frogston",
+                    "image": "img/winston/frogston.png"
+                },
+                {
+                    "name": "horizon",
+                    "image": "img/winston/horizon.png"
+                },
+                {
+                    "name": "red planet",
+                    "image": "img/winston/red-planet.png"
+                },
+                {
+                    "name": "safari",
+                    "image": "img/winston/safari.png"
+                },
+                {
+                    "name": "undersea",
+                    "image": "img/winston/undersea.png"
+                },
+                {
+                    "name": "wukong",
+                    "image": "img/winston/wukong.png"
+                },
+                {
+                    "name": "yeti",
+                    "image": "img/winston/yeti.png"
+                }
+            ]
+        },
+        {
+            "name": "zarya",
+            "icon": "img/zarya/zarya.thumb.png",
+            "strong": ["D.Va", "genji", "winston"],
+            "weak": ["pharah", "roadhog", "reaper", "sombra"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/zarya/classic.png"
+                },
+                {
+                    "name": "arctic",
+                    "image": "img/zarya/arctic.png"
+                },
+                {
+                    "name": "brick",
+                    "image": "img/zarya/brick.png"
+                },
+                {
+                    "name": "champion",
+                    "image": "img/zarya/champion.png"
+                },
+                {
+                    "name": "cybergoth",
+                    "image": "img/zarya/cybergoth.png"
+                },
+                {
+                    "name": "cyberian",
+                    "image": "img/zarya/cyberian.png"
+                },
+                {
+                    "name": "dawn",
+                    "image": "img/zarya/dawn.png"
+                },
+                {
+                    "name": "frosted",
+                    "image": "img/zarya/frosted.png"
+                },
+                {
+                    "name": "goldenrod",
+                    "image": "img/zarya/goldenrod.png"
+                },
+                {
+                    "name": "industrial",
+                    "image": "img/zarya/industrial.png"
+                },
+                {
+                    "name": "midnight",
+                    "image": "img/zarya/midnight.png"
+                },
+                {
+                    "name": "siberian front",
+                    "image": "img/zarya/siberian-front.png"
+                },
+                {
+                    "name": "taiga",
+                    "image": "img/zarya/taiga.png"
+                },
+                {
+                    "name": "violet",
+                    "image": "img/zarya/violet.png"
+                },
+                {
+                    "name": "weightlifter",
+                    "image": "img/zarya/weightlifter.png"
+                }
+            ]
+        },
+        {
+            "name": "zenyatta",
+            "icon": "img/zenyatta/zenyatta.thumb.png",
+            "strong": ["D.Va", "roadhog", "winston"],
+            "weak": ["hanzo", "torbjörn", "tracer", "widowmaker"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/zenyatta/classic.png"
+                },
+                {
+                    "name": "air",
+                    "image": "img/zenyatta/air.png"
+                },
+                {
+                    "name": "ascendant",
+                    "image": "img/zenyatta/ascendant.png"
+                },
+                {
+                    "name": "djinnyatta",
+                    "image": "img/zenyatta/djinnyatta.png"
+                },
+                {
+                    "name": "earth",
+                    "image": "img/zenyatta/earth.png"
+                },
+                {
+                    "name": "harmonious",
+                    "image": "img/zenyatta/harmonious.png"
+                },
+                {
+                    "name": "ifrit",
+                    "image": "img/zenyatta/ifrit.png"
+                },
+                {
+                    "name": "leaf",
+                    "image": "img/zenyatta/leaf.png"
+                },
+                {
+                    "name": "nutcracker",
+                    "image": "img/zenyatta/nutcracker.png"
+                },
+                {
+                    "name": "ra",
+                    "image": "img/zenyatta/ra.png"
+                },
+                {
+                    "name": "sanzang",
+                    "image": "img/zenyatta/sanzang.png"
+                },
+                {
+                    "name": "skullyatta",
+                    "image": "img/zenyatta/skullyatta.png"
+                },
+                {
+                    "name": "sunyatta",
+                    "image": "img/zenyatta/sunyatta.png"
+                },
+                {
+                    "name": "water",
+                    "image": "img/zenyatta/water.png"
+                }
+            ]
+        },
+        {
+            "name": "sombra",
+            "icon": "img/sombra/sombra.thumb.png",
+            "strong": ["bastion", "D.Va", "lucio", "reinhardt", "zarya"],
+            "weak": ["mccree", "mei", "pharah", "roadhog"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/sombra/classic.png"
+                },
+                {
+                    "name": "augmented",
+                    "image": "img/sombra/augmented.png"
+                },
+                {
+                    "name": "azúcar",
+                    "image": "img/sombra/azúcar.png"
+                },
+                {
+                    "name": "cidro",
+                    "image": "img/sombra/cidro.png"
+                },
+                {
+                    "name": "cyberspace",
+                    "image": "img/sombra/cyberspace.png"
+                },
+                {
+                    "name": "glitch",
+                    "image": "img/sombra/glitch.png"
+                },
+                {
+                    "name": "incendio",
+                    "image": "img/sombra/incendio.png"
+                },
+                {
+                    "name": "los muertos",
+                    "image": "img/sombra/los-muertos.png"
+                },
+                {
+                    "name": "mar",
+                    "image": "img/sombra/mar.png"
+                },
+                {
+                    "name": "noche",
+                    "image": "img/sombra/noche.png"
+                },
+                {
+                    "name": "peppermint",
+                    "image": "img/sombra/peppermint.png"
+                },
+                {
+                    "name": "tulum",
+                    "image": "img/sombra/tulum.png"
+                },
+                {
+                    "name": "virus",
+                    "image": "img/sombra/virus.png"
+                }
+            ]
+        },
+        {
+            "name": "orisa",
+            "icon": "img/orisa/orisa.thumb.png",
+            "strong": ["reinhardt", "roadhog", "torbjörn"],
+            "weak": ["sombra", "widowmaker", "tracer", "genji"],
+            "skins": [{
+                    "name": "classic",
+                    "image": "img/orisa/classic.png"
+                },
+                {
+                    "name": "camouflage",
+                    "image": "img/orisa/camouflage.png"
+                },
+                {
+                    "name": "carbon fiber",
+                    "image": "img/orisa/carbon-fiber.png"
+                },
+                {
+                    "name": "dawn",
+                    "image": "img/orisa/dawn.png"
+                },
+                {
+                    "name": "dynastinae",
+                    "image": "img/orisa/dynastinae.png"
+                },
+                {
+                    "name": "megasoma",
+                    "image": "img/orisa/megasoma.png"
+                },
+                {
+                    "name": "null sector",
+                    "image": "img/orisa/null-sector.png"
+                },
+                {
+                    "name": "OR15",
+                    "image": "img/orisa/or15.png"
+                },
+                {
+                    "name": "plains",
+                    "image": "img/orisa/plains.png"
+                },
+                {
+                    "name": "protector",
+                    "image": "img/orisa/protector.png"
+                },
+                {
+                    "name": "sunrise",
+                    "image": "img/orisa/sunrise.png"
+                },
+                {
+                    "name": "twilight",
+                    "image": "img/orisa/twilight.png"
+                }
+
+            ]
+
+        }
+    ]
+}

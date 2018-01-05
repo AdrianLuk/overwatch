@@ -1,0 +1,28 @@
+<h1 class="text-center display-1 p-4">About Electron</h1>
+<h2 class="text-center display-5 p-3">Overwatch Hero Guide created by: Adrian Luk</h2>
+<h3 class="text-center display-3 p-2">Built with Electron</h3>
+<h4 class="text-center display-4">About Electron</h4>
+<div class="container" id="about-electron">
+    <p>Electron is an open source framework developed by GitHub. It allows for the development of cross platform desktop applications by using Node.js to handle the backend processes and Chromium (a web browser developed by Google) for the front-end. Electron
+        is the framework behind several popular desktop applications such as the Atom text editor, the Discord chat service, and the team collaboration tool Slack.</p>
+    <p>Electron enables developers to create native desktop applications with web technologies such as HTML, CSS, and JavaScript. Thus, developers only need to learn these few languages instead of other programming languages such as Python, Java, or C++.
+        Building an application in electron is almost identical to building a website because you only need HTML, CSS, and Javascript</p>
+    <p>To get started, you will need to have Node and npm (node package manager) installed. After installing them, you will need to create a <code>package.json</code> file. This file is extremely important as it contains all the details about the application
+        itself. Fortunately, thanks to <code>npm init</code>, npm makes it easy for developers to set up their <code>package.json</code> file. Electron will then take a main JavaScript file (usually named <code>main.js</code>) and execute it. This file
+        creates the windows of the application that contain the rendered web pages that you create.</p>
+    <p>When starting up an application using Electron, what is created is called the <i>main process</i>. This process is responsible for interacting with your operating system and creates the windows of the application. The <i>main process</i> uses the
+        <i>BrowserWindow</i> module to create the application windows and each browser window then runs its own <i>renderer process</i>. This <i>renderer process</i> takes the web page that has been written in HTML, CSS, and JavaScript and displays it
+        in the window. You can see that whenever a new browser window is created, it will show up as a new process in the task manager. All <i>renderer processes</i> are created with the <i>main process</i>.</p>
+    <p>The <i>main process</i> can access the native GUI using modules available directly in Electron. While the native GUI (Graphical User Interface) of the operating system is usually only accessible through the <i>main process</i>, there are techniques
+        that allow for some of that work to be done in the <i>renderer processes</i>. For example, you can typically only access the developer tools from the <i>main process</i> and not from the JavaScript file for your <i>renderer processes</i>, but
+        with the help of something called <b>Inter-Process Communication</b> (or IPC for short), you can create a button that acts as a remote so that when it is pressed, it can open the developer tools as if it was from the <i>main process</i>. Click
+        the <code>Open/Close Dev Tools</code> button to see this IPC in action.</p>
+    <h4 class="text-center display-4">Resources</h4>
+    <ul class="d-flex flex-column justify-content-center">
+        <li><a href="https://medium.com/developers-writing/building-a-desktop-application-with-electron-204203eeb658" target="_blank">Building an electron app tutorial</a></li>
+        <li><a href="https://www.tutorialspoint.com/electron/" target="_blank">Another tutorial on creating an electron app</a></li>
+        <li><a href="https://electron.atom.io/docs/api/remote/" target="_blank">Using main process modules from the renderer process</a></li>
+        <li><a href="http://api.jquery.com/jquery.ajax/" target="_blank">Using the jQuery <code>.ajax()</code> method to update parts of the page without reloading</a></li>
+    </ul>
+    <p class="mb-4">Hopefully, with the help of this intro and these resources, you will be well on your way to creating an Electron desktop app!</p>
+</div>
