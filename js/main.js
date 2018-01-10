@@ -3,26 +3,17 @@
 // } else {
 //     alert('nope');
 // }
-
 $(document).ready(function () {
-
-
-
     $('#app').click(function (ev) {
-
         ev.preventDefault();
         $('#app').removeClass('selected animated');
         $('#about').removeClass('selected animated');
         $(this).addClass('selected animated');
-
-
         $.ajax({
             url: 'app.html',
             dataType: 'html',
             success: function (app) {
-
                 $('#main-content').html(app);
-
             }
         });
     });
@@ -31,9 +22,7 @@ $(document).ready(function () {
         $('#about').removeClass('selected animated');
         $('#app').removeClass('selected animated');
         $(this).addClass('selected animated');
-
         $.ajax({
-
             url: 'about.html',
             dataType: 'html',
             success: function (about) {
@@ -41,13 +30,11 @@ $(document).ready(function () {
             }
         });
     });
-
     // AJAX request the Overwatch API
     $.ajax({
         url: 'https://overwatch-api.net/api/v1/hero/',
         dataType: 'json',
         // trying to get the page to cache to reduce stress on the api servers so that you don't hit the 500 requests per hour limit
-
         // complete: function(xhr, textStatus){
         // var eTag = xhr.getResponseHeader('ETag');
         // var request = new XMLHttpRequest('If-None-Match');
@@ -73,9 +60,7 @@ $(document).ready(function () {
         // console.log(mymatch);
         // console.log(request);
         // },
-
         success: function (data) {
-
             $('#appbody').css({
                 'background': 'linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url(img/logo.jpg) no-repeat fixed',
                 'background-size': 'cover',
@@ -85,7 +70,6 @@ $(document).ready(function () {
             $('#skinframe').css({
                 'visibility': 'hidden'
             });
-
             $('#hero-list ul').html('');
             for (i = 0; i < data.data.length; i++) {
                 // console.log(data.data[i].name);
@@ -96,21 +80,15 @@ $(document).ready(function () {
                 var shield = data.data[i].shield;
                 var real_name = data.data[i].real_name;
                 var age = data.data[i].age;
-
                 $('#hero-list ul').append('<li><a data-hero="' + data.data[i].url + '" href="#">' + hero_name + '</a></li>');
-
             }
-
             $('#hero-list ul li a').click(function (event) {
                 event.preventDefault();
                 hero_file = $(this).data('hero');
-
                 $('#skinframe').css({
                     'visibility': 'visible'
                 });
-
                 $.ajax({
-
                     url: hero_file,
                     dataType: 'json',
                     success: function (hero) {
@@ -120,14 +98,11 @@ $(document).ready(function () {
                         $('#weak').empty();
                         hero_name = hero.name;
                         $('#hero').html(hero_name);
-
                         var role = hero.role.name;
-
                         description = hero.description;
                         health = hero.health;
                         armour = hero.armour;
                         shield = hero.shield;
-
                         real_name = hero.real_name;
                         age = hero.age;
                         var affiliation = hero.affiliation;
@@ -154,7 +129,6 @@ $(document).ready(function () {
                         //   console.log(hero_name);
                         $('#real_name').html(real_name);
                         $('#description').html(description);
-
                         $('#health').html(health);
                         $('#armour').html(armour);
                         $('#shield').html(shield);
@@ -162,36 +136,20 @@ $(document).ready(function () {
                         $('#affiliation').html(affiliation);
                         $('#origin').html(origin);
                         $('#role').html(role);
-
-
-
-
                         $('#total_health').html(total_health);
                         $('#health_bar').html('<div class="progress"><div class="progress-bar" role="progressbar" style="background-color: #AAAAB7; width: ' + ((health / total_health) * 100) + '%; height: 40px"></div><div class="progress-bar" role="progressbar" style="background-color: #d0c319; width: ' + ((armour / total_health) * 100) + '%; height: 40px"></div><div class="progress-bar" role="progressbar" style="background-color: #00cce0; width: ' + ((shield / total_health) * 100) + '%; height: 40px"></div></div>');
-
-
                         for (var j = 0; j < hero.abilities.length; j++) {
-
                             var ultimate = hero.abilities[j].is_ultimate;
-
                             if (ultimate == false) {
-
                                 $('#abilities').append('<h3 class="text-light" id="ability">Ability ' + (j + 1) + '</h3><h2 class="ability_name display-4">' + hero.abilities[j].name + '</h2><p>' + hero.abilities[j].description + '</p></div>');
-
                             } else if (ultimate == true) {
-
                                 $('#abilities').append('<h3 class="text-warning display-4" id="ability">Ultimate Ability</h3><h2 class="ability_name display-4">' + hero.abilities[j].name + '</h2><p>' + hero.abilities[j].description + '</p></div>');
-
                             }
-
                         }
-
                         $.ajax({
-
                             url: 'data.json',
                             dataType: 'json',
                             success: function (cosmetics) {
-
                                 // var icon = datas.data[i].icon;
                                 var skinslist = cosmetics.data[id].skins;
                                 $('#icon').html('<img src="' + cosmetics.data[id].icon.toLowerCase() + '" alt="' + cosmetics.data[id].name + '">');
@@ -199,7 +157,6 @@ $(document).ready(function () {
                                     var skin_name = cosmetics.data[id].skins[k].name.toLowerCase();
                                     var skin_pic = cosmetics.data[id].skins[k].image.toLowerCase();
                                     $('#skin-list').append('<a class="nav-link btn-primary p-3 m-3" href="' + k + '">' + skin_name + '</a>');
-
                                 }
                                 $('#skinframe').attr({
                                     'src': 'img/' + hero_name.toLowerCase() + '/classic.png',
@@ -219,9 +176,6 @@ $(document).ready(function () {
                                     });
                                     $('#skin_title').html(skin_name);
                                 });
-
-
-
                                 $('#appbody').css({
                                     'background': 'url(img/' + hero_name.toLowerCase() + '/classic.png) no-repeat fixed',
                                     'background-size': 'cover',
@@ -230,7 +184,6 @@ $(document).ready(function () {
                                 });
                                 var strongList = cosmetics.data[id].strong;
                                 var weakList = cosmetics.data[id].weak;
-
                                 for (var x = 0; x < strongList.length; x++) {
                                     var strongName = cosmetics.data[id].strong[x].toLowerCase();
                                     $('#strong').append('<img class="img-fluid p-3" src="img/' + strongName + '/' + strongName + '.thumb.png" alt="' + strongName + '">');
@@ -252,7 +205,6 @@ $(document).ready(function () {
                                     $('.ability_name').css({
                                         'color': '#dc3545'
                                     });
-
                                 } else if (role == 'defense') {
                                     $('#role').css({
                                         'color': '#28a745'
@@ -266,7 +218,6 @@ $(document).ready(function () {
                                     $('.ability_name').css({
                                         'color': '#28a745'
                                     });
-
                                 } else if (role == 'support') {
                                     $('#role').css({
                                         'color': '#ffa500'
@@ -280,7 +231,6 @@ $(document).ready(function () {
                                     $('.ability_name').css({
                                         'color': '#ffa500'
                                     });
-
                                 } else if (role == 'tank') {
                                     $('#role').css({
                                         'color': '#007bff'
@@ -294,20 +244,12 @@ $(document).ready(function () {
                                     $('.ability_name').css({
                                         'color': '#007bff'
                                     });
-
                                 }
-
-
                             }
                         });// third ajax function
                     }
                 });// second ajax function
-
             });
         }
     });// first ajax function
-
-
-
-
 });
