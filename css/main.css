@@ -36,7 +36,7 @@ h1{
 
 h2{
 
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     letter-spacing: 1.5px;
     text-shadow: 0 1px 0 #ccc,
                    0 2px 0 #c9c9c9,
@@ -53,9 +53,10 @@ h2{
 }
 
 #select{
-    text-shadow: none;
+    /* text-shadow: none; */
     padding: 20px;
     font-weight: bold;
+    
 }
 h3{
     font-size: 2.5rem;
